@@ -1,18 +1,17 @@
-//10.	Write a program to print all even numbers in range 700 to 900.
+//
 import java.util.*;
-class even
+class summ
 {
 	public static void main(String args[])
 	{
 		Scanner x=new Scanner(System.in);
 		int a=x.nextInt();
 		int b=x.nextInt();
+		int s=0;
 		for (int i=a;i<=b;i++)
-		{
-			if(i%2==0)
-			{
-				System.out.println(i);
-			}	
+		{	
+			s=s+i;	
 		}
+		System.out.println(s);
 	}
 }

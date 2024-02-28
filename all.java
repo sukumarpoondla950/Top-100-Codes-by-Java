@@ -1,6 +1,7 @@
-//10.	Write a program to print all even numbers in range 700 to 900.
+//8.Write a program to print all numbers which are divisible by 11 from 250 to 550.
+
 import java.util.*;
-class even
+class all
 {
 	public static void main(String args[])
 	{
@@ -9,7 +10,7 @@ class even
 		int b=x.nextInt();
 		for (int i=a;i<=b;i++)
 		{
-			if(i%2==0)
+			if(i%11==0)
 			{
 				System.out.println(i);
 			}	
