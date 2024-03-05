@@ -5,7 +5,7 @@ class leap
 	{
 		Scanner obj=new Scanner(System.in);
 		int a=obj.nextInt();
-		if((a%4==0 || a%400==0)&& (a%100!=0 || a%400==0))
+		if((a%4==0 || a%400==0)&& (a%100!=0 || a%400==0 || a%4==0 ))
 		{	
 			System.out.print(a+" Leap");
 		}
